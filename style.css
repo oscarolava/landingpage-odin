@@ -1,0 +1,130 @@
+*{
+    font: 'Roboto',sans-serif;
+}
+
+body{
+    background-color: #1f2937;
+    margin: 0;
+}
+/*Empezamos por el header*/
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    margin:20px 520px;
+    padding: 0;
+    margin-bottom: 65px;
+    flex-wrap: wrap;
+}
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    padding: 4px 32px;
+}
+
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+  }
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+  }
+
+  /*Seguimos con el primer contenido */
+
+.container-first-content{
+    width: 400px;
+    margin-bottom: 120px;
+}
+
+.first-content{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.title-first-content{
+    text-align: left;
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text-first-content{
+    color:#f9faf8;
+    font-size: 18px;
+    text-align: left;
+}
+
+.placeholder{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height:204px;
+}
+
+.placeholder-text{
+    color:#f9faf8;
+    font-size: 18px;
+}
+
+.first-sign-up{
+    border: none;
+    border-radius: 8px;
+    background: #3882f6;
+    color: white;
+    padding: 8px 24px;
+    font-weight: 800;
+}
+
+/* random information*/
+
+.rand-inf-container{
+    padding: 100px 0px;
+    background-color: white;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.rand-title{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.rand-content{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.rand-cuadro{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: 5px solid;
+    border-radius: 5px;
+    border-color: #3882f6;
+}
+
+.rand-text{
+    color: black;
+    text-align: center;
+    width: 100px;
+}
